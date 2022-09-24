@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "32KBNxt27GaPMccIUPpzwSIuitp5SvJw2+0q271FziM=",
+  "Source": "Finansist.WebAPI",
+  "BasePath": "_content/Finansist.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,375 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.WebAPI\\Finansist.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\Finansist.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\Finansist.CrossCutting.csproj",
+        "projectName": "Finansist.CrossCutting",
+        "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\Finansist.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj"
+              },
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj"
+              },
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj",
+        "projectName": "Finansist.Database",
+        "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj",
+        "projectName": "Finansist.Domain",
+        "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj",
+        "projectName": "Finansist.Infrastructure",
+        "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.WebAPI\\Finansist.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.WebAPI\\Finansist.WebAPI.csproj",
+        "projectName": "Finansist.WebAPI",
+        "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.WebAPI\\Finansist.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\Finansist.CrossCutting.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.CrossCutting\\Finansist.CrossCutting.csproj"
+              },
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Database\\Finansist.Database.csproj"
+              },
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Domain\\Finansist.Domain.csproj"
+              },
+              "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj": {
+                "projectPath": "C:\\Tecnology\\Sistemas\\Gabriel\\Finansist\\Finansist-BackEnd\\Finansist.Infrastructure\\Finansist.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
